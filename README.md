@@ -44,9 +44,9 @@ This project was my  first experience with the use of linters, which was great a
 
 >## Live Demo
 
-[Link Github Repo](https://github.com/errea)
+  [Link Github Repo](https://github.com/errea)
 
-[Live Demo Link](https://hardcore-hodgkin-3a83ed.netlify.app/)
+  [Live Demo Link](https://hardcore-hodgkin-3a83ed.netlify.app/)
 
 >### Getting Started
 
@@ -67,8 +67,16 @@ Setup by  following the installation instructions below
 ## Install
 
  Run this npm package to install dependencies
+
  => npm install --save-dev hint@6.0.x
- => npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator
+
+ Run npx hint . [To fix Webhint errors]
+
+ => npm install --save-dev stylelint@13.3.x 
+
+Run npx stylelint "**/*.{css,scss}" --fix [ To fix Stylint error]
+
+ stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator
 
 ### Run tests
 
