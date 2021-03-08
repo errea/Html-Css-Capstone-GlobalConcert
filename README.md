@@ -42,11 +42,11 @@ This project was my  first experience with the use of linters, which was great a
 
 [Live Demo Link](https://hardcore-hodgkin-3a83ed.netlify.app/)
 
-## Getting Started
+>### Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+## Prerequisites
 
 1. Vs code
 
@@ -54,11 +54,11 @@ To get a local copy up and running follow these simple example steps.
 
 3. Linter tests
 
-### Setup
+## Setup
 
 Setup by  following the installation instructions below 
 
-### Install
+## Install
 
  Run this npm package to install dependencies
  => npm install --save-dev hint@6.0.x
