@@ -27,13 +27,19 @@ This project was my  first experience with the use of linters, which was great a
 - Introduction to HTML & CSS concepts.
 - Position, Flex, Floats
 - Embeds and image manipulating
+  
+>## Screen Shots
+![screenshot](./assets/img/Capture.jpg)
+![screenshot](./assets/img/p1.JPG)
+![screenshot](./assets/img/p2.JPG)
+![screenshot](./assets/img/s1.JPG)
+![screenshot](./assets/img/s2.JPG)
 
-![screenshot](./assets/The_New_York_Times.png)
-
+[Link to page designs of the site for capstone ](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 >## Built With
 
 - Major languages: HTML, CSS
-- Frameworks: git flow
+- Frameworks: git flow, CSS framework (Bootstrap for responsiveness)
 - Technologies used: None
 
 >## Live Demo
