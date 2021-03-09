@@ -1,10 +1,10 @@
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # General
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #444;
   background-color: black;
 }
 
@@ -28,9 +28,9 @@ h6 {
 }
 
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Back to top button
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 
 .back-to-top {
   position: fixed;
@@ -53,7 +53,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #EC5242;
+  background: #ec5242;
   color: #fff;
 }
 
@@ -63,9 +63,9 @@ h6 {
 }
 
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Disable AOS delay on mobile
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
@@ -74,20 +74,20 @@ h6 {
 }
 
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Top Bar
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 
 #topbar {
   background: #1c1c1c;
   padding: 10px 0;
   font-size: 14px;
-  color: #D3D3D3;
+  color: #d3d3d3;
 }
 
 #topbar .contact-info i {
   font-style: normal;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 #topbar .contact-info i a,
@@ -102,7 +102,7 @@ h6 {
 }
 
 #topbar .contact-info i a:hover {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 #topbar .social-links a {
@@ -113,13 +113,13 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Header
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 
 #header {
   height: 70px;
@@ -156,13 +156,13 @@ h6 {
 }
 
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Navigation Menu
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 
 
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 
 .navbar {
@@ -203,8 +203,8 @@ h6 {
 
 .navbar a:hover,
 .navbar .active,
-.navbar li:hover>a {
-  color: #EC5242;
+.navbar li:hover > a {
+  color: #ec5242;
 }
 
 .navbar .getstarted {
@@ -217,7 +217,7 @@ h6 {
 
 .navbar .getstarted:hover {
   color: #fff;
-  background: #EC5242;
+  background: #ec5242;
 }
 
 .navbar .dropdown ul {
@@ -230,8 +230,8 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #D3D3D3;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: #d3d3d3;
+  box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -245,7 +245,7 @@ h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #D3D3D3;
+  color: #d3d3d3;
 }
 
 .navbar .dropdown ul a i {
@@ -254,11 +254,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-  color: #EC5242;
+.navbar .dropdown ul li:hover > a {
+  color: #ec5242;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -270,7 +270,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -281,14 +281,15 @@ h6 {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
-  .navbar .dropdown .dropdown:hover>ul {
+
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
 
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 
 .mobile-nav-toggle {
@@ -304,6 +305,7 @@ h6 {
   .mobile-nav-toggle {
     display: block;
   }
+
   .navbar ul {
     display: none;
   }
@@ -344,13 +346,13 @@ h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #EC5242;
+  color: gray;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
-  color: #EC5242;
+.navbar-mobile li:hover > a {
+  color: #ec5242;
 }
 
 .navbar-mobile .getstarted {
@@ -366,7 +368,7 @@ h6 {
   opacity: 1;
   visibility: visible;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
 }
 
 .navbar-mobile .dropdown ul li {
@@ -383,18 +385,18 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
-  color: #EC5242
+.navbar-mobile .dropdown ul li:hover > a {
+  color: #ec5242;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Hero Section
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 
 #hero {
   width: 100%;
@@ -404,7 +406,7 @@ h6 {
   position: relative;
 }
 
-#hero:before {
+#hero::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -445,18 +447,18 @@ h6 {
   font-size: 48px;
   font-weight: 200px;
   line-height: 56px;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 #hero h2 {
-  color: #EC5242;
+  color: #ec5242;
   margin-bottom: 30px;
   font-size: 70px;
   font-weight: 350px;
 }
 
 #hero br {
-  color: #EC5242;
+  color: #ec5242;
   margin-bottom: 30px;
   font-size: 70px;
   font-weight: 350px;
@@ -472,10 +474,12 @@ h6 {
   #hero {
     height: 100vh;
   }
+
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
   }
+
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
@@ -484,9 +488,9 @@ h6 {
 }
 
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Sections General
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 
 section {
   padding: 60px 0;
@@ -505,7 +509,7 @@ section {
   padding: 8px 20px;
   margin: 0;
   background: #f3f8ec;
-  color: #EC5242;
+  color: #ec5242;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -533,9 +537,9 @@ section {
 }
 
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # About
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 
 .about .box-heading h4 {
   font-size: 13px;
@@ -544,7 +548,7 @@ section {
   padding: 8px 20px;
   margin: 0 0 15px 0;
   background: #f3f8ec;
-  color: #EC5242;
+  color: #ec5242;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -574,13 +578,13 @@ section {
 }
 
 .about .icon-box .icon i {
-  color: #EC5242;
+  color: #ec5242;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #EC5242;
-  border-color: #EC5242;
+  background: #ec5242;
+  border-color: #ec5242;
 }
 
 .about .icon-box:hover .icon i {
@@ -600,7 +604,7 @@ section {
 }
 
 .about .icon-box .title a:hover {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .about .icon-box .description {
@@ -618,7 +622,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#EC5242 50%, rgba(143, 192, 78, 0.4) 52%);
+  background: radial-gradient(#ec5242 50%, rgba(143, 192, 78, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -659,7 +663,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid #EC5242;
+  border: 5px solid #ec5242;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -693,6 +697,7 @@ section {
     transform: scale(0.6, 0.6);
     opacity: 1;
   }
+
   100% {
     transform: scale(1, 1);
     opacity: 0;
@@ -704,6 +709,7 @@ section {
     transform: scale(0.6, 0.6);
     opacity: 1;
   }
+
   100% {
     transform: scale(1, 1);
     opacity: 0;
@@ -711,9 +717,9 @@ section {
 }
 
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Services
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 
 .services .icon-box {
   text-align: center;
@@ -762,22 +768,22 @@ section {
 
 .services .icon-box:hover {
   border-color: #fff;
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
 }
 
 .services .icon-box:hover h4 a,
 .services .icon-box:hover .icon i {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .services .icon-box:hover .icon {
-  border-color: #EC5242;
+  border-color: #ec5242;
 }
 
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # Team
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 
 .team {
   background: white;
@@ -789,7 +795,7 @@ section {
   overflow: hidden;
   border-radius: 5px;
   background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 .team .member .member-img {
@@ -826,7 +832,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #EC5242;
+  background: #ec5242;
 }
 
 .team .member .social i {
@@ -842,21 +848,21 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: black
+  color: black;
 }
 
 .team .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: #aaa;
 }
 
 .team .member .member-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
-  color: #777777;
+  color: #777;
 }
 
 .team .member:hover .social {
@@ -868,6 +874,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -877,15 +884,43 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
 
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
+# partner
+-------------------------------------------------------------- */
+
+.partner {
+  display: flex;
+  text-decoration: none;
+  width: 20px;
+  list-style: none;
+}
+
+.pat-img {
+  text-decoration: none;
+  width: 100px;
+}
+
+.partner li {
+  text-decoration: none;
+  padding: 30px;
+}
+
+
+/* --------------------------------------------------------------
+# partner
+-------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------
 # Footer
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 
 #footer {
   color: #fff;
