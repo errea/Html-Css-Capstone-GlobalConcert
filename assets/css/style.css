@@ -1,7 +1,3 @@
-/* --------------------------------------------------------------
-# General
--------------------------------------------------------------- */
-
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
@@ -26,11 +22,6 @@ h5,
 h6 {
   font-family: "Lato", sans-serif;
 }
-
-
-/* --------------------------------------------------------------
-# Back to top button
--------------------------------------------------------------- */
 
 .back-to-top {
   position: fixed;
@@ -62,21 +53,101 @@ h6 {
   opacity: 1;
 }
 
-
-/* --------------------------------------------------------------
-# Disable AOS delay on mobile
--------------------------------------------------------------- */
-
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
+.navbar a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: grey;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: 0.3s;
 }
 
+.navbar .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: none;
+  color: #d3d3d3;
+}
 
-/* --------------------------------------------------------------
-# Top Bar
--------------------------------------------------------------- */
+.navbar-mobile .dropdown ul a {
+  padding: 10px 20px;
+}
+
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
+  color: #ec5242;
+}
+
+.team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaa;
+}
+
+#topbar .contact-info i a {
+  line-height: 0;
+  transition: 0.3s;
+}
+
+#topbar .contact-info i a,
+#topbar .contact-info i span {
+  padding-left: 5px;
+  color: #fff;
+}
+
+#header .logo h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+#topbar .social-links a:hover {
+  color: #ec5242;
+}
+
+#topbar .social-links a {
+  color: white;
+  line-height: 0;
+  transition: 0.3s;
+  margin-left: 10px;
+}
+
+#topbar .contact-info i a:hover {
+  color: #ec5242;
+}
+
+#header .logo h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar-mobile .dropdown ul a i {
+  font-size: 12px;
+}
+
+.team .member .social i {
+  font-size: 18px;
+  line-height: 0;
+}
+
+@media screen and (max-width: 768px) {}
 
 #topbar {
   background: #1c1c1c;
@@ -90,42 +161,10 @@ h6 {
   color: #ec5242;
 }
 
-#topbar .contact-info i a,
-#topbar .contact-info i span {
-  padding-left: 5px;
-  color: #fff;
-}
-
-#topbar .contact-info i a {
-  line-height: 0;
-  transition: 0.3s;
-}
-
-#topbar .contact-info i a:hover {
-  color: #ec5242;
-}
-
-#topbar .social-links a {
-  color: white;
-  line-height: 0;
-  transition: 0.3s;
-  margin-left: 10px;
-}
-
-#topbar .social-links a:hover {
-  color: #ec5242;
-}
-
-
-/* --------------------------------------------------------------
-# Header
--------------------------------------------------------------- */
-
 #header {
   height: 70px;
   transition: all 0.5s;
   z-index: 997;
-  transition: all 0.5s;
   background: white;
 }
 
@@ -139,12 +178,6 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header .logo h1 a,
-#header .logo h1 a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
 #header .logo img {
   padding: 0;
   margin: 0;
@@ -155,11 +188,14 @@ h6 {
   margin-top: 70px;
 }
 
+.partner li {
+  text-decoration: none;
+  padding: 30px;
+}
 
 /* --------------------------------------------------------------
 # Navigation Menu
 -------------------------------------------------------------- */
-
 
 /**
 * Desktop Navigation
@@ -181,32 +217,6 @@ h6 {
   position: relative;
 }
 
-.navbar a {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0 10px 30px;
-  font-family: "Poppins", sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  color: grey;
-  text-transform: uppercase;
-  white-space: nowrap;
-  transition: 0.3s;
-}
-
-.navbar a i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
-}
-
-.navbar a:hover,
-.navbar .active,
-.navbar li:hover > a {
-  color: #ec5242;
-}
-
 .navbar .getstarted {
   background: white;
   padding: 8px 20px;
@@ -215,9 +225,39 @@ h6 {
   color: #fff;
 }
 
+.navbar-mobile .getstarted {
+  margin: 15px;
+}
+
 .navbar .getstarted:hover {
   color: #fff;
   background: #ec5242;
+}
+
+.navbar-mobile ul {
+  display: block;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  padding: 10px 0;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow-y: auto;
+  transition: 0.3s;
+}
+
+.navbar-mobile .dropdown ul {
+  position: static;
+  display: none;
+  margin: 10px 20px;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 1;
+  visibility: visible;
+  background: #fff;
+  box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
 }
 
 .navbar .dropdown ul {
@@ -238,24 +278,6 @@ h6 {
 
 .navbar .dropdown ul li {
   min-width: 200px;
-}
-
-.navbar .dropdown ul a {
-  padding: 10px 20px;
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: none;
-  color: #d3d3d3;
-}
-
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
-  color: #ec5242;
 }
 
 .navbar .dropdown:hover > ul {
@@ -286,7 +308,6 @@ h6 {
     left: -100%;
   }
 }
-
 
 /**
 * Mobile Navigation
@@ -329,20 +350,6 @@ h6 {
   right: 15px;
 }
 
-.navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
-  border-radius: 8px;
-  background-color: #fff;
-  overflow-y: auto;
-  transition: 0.3s;
-}
-
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
@@ -355,32 +362,8 @@ h6 {
   color: #ec5242;
 }
 
-.navbar-mobile .getstarted {
-  margin: 15px;
-}
-
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
-}
-
 .navbar-mobile .dropdown ul li {
   min-width: 200px;
-}
-
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
 }
 
 .navbar-mobile .dropdown ul a:hover,
@@ -438,7 +421,7 @@ h6 {
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding: 20 15px;
+  padding: 15px;
   color: white;
 }
 
@@ -487,7 +470,6 @@ h6 {
   }
 }
 
-
 /* --------------------------------------------------------------
 # Sections General
 -------------------------------------------------------------- */
@@ -535,7 +517,6 @@ section {
     width: 50%;
   }
 }
-
 
 /* --------------------------------------------------------------
 # About
@@ -780,7 +761,6 @@ section {
   border-color: #ec5242;
 }
 
-
 /* --------------------------------------------------------------
 # Team
 -------------------------------------------------------------- */
@@ -835,11 +815,6 @@ section {
   background: #ec5242;
 }
 
-.team .member .social i {
-  font-size: 18px;
-  line-height: 0;
-}
-
 .team .member .member-info {
   padding: 25px 15px;
 }
@@ -849,13 +824,6 @@ section {
   margin-bottom: 5px;
   font-size: 18px;
   color: black;
-}
-
-.team .member .member-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: #aaa;
 }
 
 .team .member .member-info p {
@@ -890,7 +858,6 @@ section {
   }
 }
 
-
 /* --------------------------------------------------------------
 # partner
 -------------------------------------------------------------- */
@@ -907,16 +874,9 @@ section {
   width: 100px;
 }
 
-.partner li {
-  text-decoration: none;
-  padding: 30px;
-}
-
-
 /* --------------------------------------------------------------
 # partner
 -------------------------------------------------------------- */
-
 
 /* --------------------------------------------------------------
 # Footer
