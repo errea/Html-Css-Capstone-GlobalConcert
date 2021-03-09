@@ -21,7 +21,7 @@ This project was my  first experience with the use of linters, which was great a
 - Collaborative learning, being patient, helping each other succeed.
 - Attending Daily standup, being focused, accountable.
 
-> Learning Goals:
+>## Learning Goals
 
 - Version Control & CSS
 - Introduction to HTML & CSS concepts.
@@ -29,13 +29,16 @@ This project was my  first experience with the use of linters, which was great a
 - Embeds and image manipulating
   
 >## Screen Shots
+
 ![screenshot](./assets/img/Capture.jpg)
 ![screenshot](./assets/img/p1.JPG)
 ![screenshot](./assets/img/p2.JPG)
 ![screenshot](./assets/img/s1.JPG)
 ![screenshot](./assets/img/s2.JPG)
 
-[Link to page designs of the site for capstone ](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+[Link to page designs of the site for capstone ]
+(https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+
 >## Built With
 
 - Major languages: HTML, CSS
@@ -62,7 +65,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Setup
 
-Setup by  following the installation instructions below 
+Setup by  following the installation instructions below
 
 ## Install
 
@@ -72,7 +75,7 @@ Setup by  following the installation instructions below
 
  Run npx hint . [To fix Webhint errors]
 
- => npm install --save-dev stylelint@13.3.x 
+ => npm install --save-dev stylelint@13.3.x
 
 Run npx stylelint "**/*.{css,scss}" --fix [ To fix Stylint error]
 
