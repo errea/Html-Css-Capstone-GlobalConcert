@@ -95,6 +95,10 @@ run test with linters
 2. Deployed project using Github Pages
 [Live Demo Link](https://errea.github.io/Html-Css-Capstone-GlobalConcert/)  
 
+>## Live Demo Video
+
+  [Link to Loom Video](https://github.com/errea)
+
 >## Authors
 
 👤 **Eri-Ngozi**
