@@ -828,7 +828,7 @@ section {
   }
 
   #hero {
-    height: 100vh;
+    height: 70vh;
   }
 
   #hero h1 {
@@ -855,17 +855,59 @@ section {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
+
+  #hero {
+    height: 70vh;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 992px) {
   .mobile-nav-toggle {
     display: block;
   }
+
+  #hero {
+    height: 70vh;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
 }
 
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+    height: 70vh;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
   }
 
   .section-title p {
