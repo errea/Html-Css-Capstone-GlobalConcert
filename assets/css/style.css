@@ -10,7 +10,7 @@ a {
 }
 
 a:hover {
-  color: #a7cd74;
+  color: #ec5242;
   text-decoration: none;
 }
 
@@ -854,10 +854,6 @@ section {
   text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
-
-}
-
 #topbar {
   background: #1c1c1c;
   padding: 10px 0;
@@ -897,7 +893,32 @@ section {
   margin-top: 70px;
 }
 
+@media screen and (max-width: 768px) {
+  .mobile-nav-toggle {
+    display: none;
+  }
+
+  #hero {
+    height: 100vh;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
 @media (max-width: 1366px) {
+  .mobile-nav-toggle {
+    display: none;
+  }
+
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
@@ -910,6 +931,16 @@ section {
 @media (max-width: 992px) {
   .mobile-nav-toggle {
     display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+
+  .section-title p {
+    width: 50%;
   }
 }
 
@@ -970,35 +1001,6 @@ section {
   color: #ec5242;
   margin-bottom: 30px;
   font-size: 70px;
-}
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero {
-    height: 100vh;
-  }
-
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .section-title p {
-    width: 50%;
-  }
 }
 
 @-webkit-keyframes pulsate-btn {
