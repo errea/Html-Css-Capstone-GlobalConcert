@@ -2,20 +2,19 @@
 
 # Html-Css-Capstone- Music Global Concert
 
-This capstone project is to build for the HTML &amp; CSS Technical Microverse curriculum based on an online website for a conference. I am to follow the given design of the website, but I must personalise the content, i.e., instead of a conference you can build a website for a concert or for a web development course.
+This capstone project is to build for the HTML &amp; CSS Technical Microverse curriculum based on an online website for a conference. I am to follow the given design of the website, but I must personalise the content and be creative, i.e., instead of a conference concert I decided to build a Music concert.
 
 ## Week 4  HTML/CSS  Microverse Capstone Project
 
-This project was created as a clone of the New York Times - Article Page.
-The collaborative Coding experience was an amazing experience, spending time and holding each other accountable  to learn and  create this project from ground was fun. I was sure to complete the project and understan every bits in details.
-
-This project was my  first experience with the use of linters, which was great and understandable.
+This project was created to reflect the RWD pattern for website. I had to start with the mobile responsiveness.
+The project was solo but time to time i met with my coding partner for accounttabuility, ideas since no man is an Island of himself. I was sure to complete the project and understand every bits in details.
 
 >Skills Revived & Learned:
 
 - Versioning & best practices of maintaining branches of safe deployed and local dev
-- git flow & Github flow
-- HTML, CSS new and better elements, semantics, features etc
+- Git flow & Github flow Practice
+- HTML, CSS semantics, features  and best practice (DRY)etc
+- Using CSS framework like Bootstrap for RWD
 - Cloning - the hard work and skills needed to successfully make a clone.
 - Linter - install & fix tests {still not managed to get styleint to run on VSC locally}
 - Collaborative learning, being patient, helping each other succeed.
@@ -57,11 +56,9 @@ To get a local copy up and running follow these simple example steps.
 
 ## Prerequisites
 
-1. Vs code
-
-2. Terminal (Bash)
-
-3. Linter tests
+    Vs code
+     Terminal (Bash)
+     Linter tests
 
 ## Setup
 
@@ -71,15 +68,17 @@ Setup by  following the installation instructions below
 
  Run this npm package to install dependencies
 
- => npm install --save-dev hint@6.0.x
+    npm install --save-dev hint@6.0.x
 
- Run npx hint . [To fix Webhint errors]
+     npm install --save-dev stylelint@13.3.x
 
- => npm install --save-dev stylelint@13.3.x
+     stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator
 
-Run npx stylelint "**/*.{css,scss}" --fix [ To fix Stylint error]
+ Run this command to fix Webhint errors & stylelint errors Respectivly
 
- stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator
+       npx hint .
+
+       npx stylelint "**/*.{css,scss}" --fix
 
 ### Run tests
 
@@ -88,12 +87,15 @@ run test with linters
 => Stylelint
 => Lighthouse
 
-### Deployment
+>## Deployment
 
-Deloped  project using Netlify
+1. Deloped  project using Netlify
 [Live Demo Link](https://quirky-panini-716c06.netlify.app/index.html)
-D
-## Authors
+
+2. Deployed project using Github Pages
+[Live Demo Link](https://quirky-panini-716c06.netlify.app/index.html)  
+
+>## Authors
 
 👤 **Eri-Ngozi**
 
@@ -101,7 +103,7 @@ D
 - Twitter: [@twitterhandle](https://twitter.com/Erreakay)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/eri-ngozi-okereafor/)
 
-## 🤝 Contributing
+******** 🤝 Contributing 🤝************
 
 Contributions, issues, and feature requests are welcome!
 
