@@ -50,26 +50,6 @@ a:hover {
   transition: ease-in-out 0.3s;
 }
 
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
-  color: #ec5242;
-}
-
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
-  color: #ec5242;
-}
-
 .navbar .dropdown ul a {
   padding: 10px 20px;
   font-size: 14px;
@@ -78,12 +58,113 @@ a:hover {
   color: #d3d3d3;
 }
 
+.navbar li {
+  position: relative;
+}
+
+.breadcrumbs ol li + li {
+  padding-left: 10px;
+}
+
+.navbar-mobile .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar-mobile .dropdown ul a {
+  padding: 10px 20px;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.navbar a i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar-mobile .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar .dropdown ul a i {
+  font-size: 12px;
+}
+
+.team .member .social i {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.about .icon-box {
+  margin-top: 40px;
+}
+
+.about .icon-box .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #d6e8bf;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.about .icon-box .icon i {
+  color: #ec5242;
+  font-size: 32px;
+}
+
+.about .icon-box .title a {
+  color: #343a40;
+  transition: 0.3s;
+}
+
+.services .icon-box .icon i {
+  color: #bfdb99;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #353535;
+  margin: 0 3px;
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+  background: #8fc04e;
+  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services .icon-box:hover h4 a,
+.services .icon-box:hover .icon i,
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul a:hover,
+.navbar .dropdown ul li:hover > a,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
+  color: #ec5242;
+}
 
 /* --------------------------------------------------------------
 # nav bar
 -------------------------------------------------------------- */
 .navbar ul {
-  display: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
 }
 
 .navbar-mobile {
@@ -111,7 +192,6 @@ a:hover {
 /* --------------------------------------------------------------
 # partner
 -------------------------------------------------------------- */
-
 
 .partner {
   display: flex;
@@ -150,12 +230,6 @@ h6 {
   transition: all 0.4s;
 }
 
-.back-to-top i {
-  font-size: 28px;
-  color: #fff;
-  line-height: 0;
-}
-
 .back-to-top:hover {
   background: #ec5242;
   color: #fff;
@@ -192,12 +266,6 @@ h6 {
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box .icon i {
-  color: #bfdb99;
-  font-size: 28px;
-  transition: ease-in-out 0.3s;
-}
-
 .services .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
@@ -218,11 +286,6 @@ h6 {
 .services .icon-box:hover {
   border-color: #fff;
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
-}
-
-.services .icon-box:hover h4 a,
-.services .icon-box:hover .icon i {
-  color: #ec5242;
 }
 
 .services .icon-box:hover .icon {
@@ -275,11 +338,6 @@ section {
   padding: 60px 0;
 }
 
-.team .member .social i {
-  font-size: 18px;
-  line-height: 0;
-}
-
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -305,22 +363,6 @@ section {
   justify-content: center;
 }
 
-.team .member .social a {
-  transition: color 0.3s;
-  color: #353535;
-  margin: 0 3px;
-  border-radius: 50px;
-  width: 36px;
-  height: 36px;
-  background: #8fc04e;
-  display: inline-block;
-  transition: ease-in-out 0.3s;
-  color: #fff;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .team .member .social a:hover {
   background: #ec5242;
 }
@@ -336,11 +378,28 @@ section {
   padding: 25px 15px;
 }
 
+.about .box-heading h4 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0 0 15px 0;
+  background: #f3f8ec;
+  color: #ec5242;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
 .team .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
   color: black;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
 }
 
 .team .member .member-info p {
@@ -355,50 +414,15 @@ section {
   bottom: 15px;
 }
 
-
 /* --------------------------------------------------------------
 # About
 -------------------------------------------------------------- */
-
-.about .box-heading h4 {
-  font-size: 13px;
-  letter-spacing: 1px;
-  font-weight: 700;
-  padding: 8px 20px;
-  margin: 0 0 15px 0;
-  background: #f3f8ec;
-  color: #ec5242;
-  display: inline-block;
-  text-transform: uppercase;
-  border-radius: 50px;
-}
 
 .about .box-heading h3 {
   font-size: 28px;
   font-weight: 700;
   color: #353535;
   margin-bottom: 15px;
-}
-
-.about .icon-box {
-  margin-top: 40px;
-}
-
-.about .icon-box .icon {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 64px;
-  height: 64px;
-  border: 2px solid #d6e8bf;
-  border-radius: 50px;
-  transition: 0.5s;
-}
-
-.about .icon-box .icon i {
-  color: #ec5242;
-  font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
@@ -467,14 +491,6 @@ section {
   height: 120px;
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
-  -webkit-animation: pulsate-btn 2s;
-  animation: pulsate-btn 2s;
-  -webkit-animation-direction: forwards;
-  animation-direction: forwards;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: steps;
-  animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
   border: 5px solid #ec5242;
@@ -504,6 +520,13 @@ section {
   -webkit-animation: none;
   animation: none;
   border-radius: 0;
+}
+
+#topbar .social-links a {
+  color: white;
+  line-height: 0;
+  transition: 0.3s;
+  margin-left: 10px;
 }
 
 #topbar .contact-info i a {
@@ -540,10 +563,6 @@ section {
   margin: 0;
 }
 
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
@@ -556,24 +575,6 @@ section {
 */
 .navbar {
   padding: 0;
-}
-
-.navbar a i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
-}
-
-.navbar ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-
-.navbar li {
-  position: relative;
 }
 
 .navbar .getstarted {
@@ -702,10 +703,6 @@ section {
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
-  padding: 0;
-}
-
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
@@ -814,13 +811,13 @@ section {
   transition: ease-in-out 0.3s;
 }
 
+.portfolio .portfolio-item .portfolio-info .details-link {
+  right: 15px;
+}
+
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #d6e8bf;
-}
-
-.portfolio .portfolio-item .portfolio-info .details-link {
-  right: 15px;
 }
 
 .portfolio .portfolio-item:hover img {
@@ -848,13 +845,6 @@ section {
   color: #ec5242;
 }
 
-#topbar .social-links a {
-  color: white;
-  line-height: 0;
-  transition: 0.3s;
-  margin-left: 10px;
-}
-
 #topbar .contact-info i a:hover {
   color: #ec5242;
 }
@@ -862,19 +852,6 @@ section {
 #header .logo h1 a:hover {
   color: #fff;
   text-decoration: none;
-}
-
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
-
-.about .icon-box .title a {
-  color: #343a40;
-  transition: 0.3s;
-}
-
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
 }
 
 @media screen and (max-width: 768px) {
