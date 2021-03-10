@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Html-Css-Capstone-GlobalConcert
+# Html-Css-Capstone- Music Global Concert
 
 This capstone project is to build for the HTML &amp; CSS Technical Microverse curriculum based on an online website for a conference. I am to follow the given design of the website, but I must personalise the content, i.e., instead of a conference you can build a website for a concert or for a web development course.
 
-## Week 1  HTML5 Collaborative Microverse Project
+## Week 4  HTML/CSS  Microverse Capstone Project
 
 This project was created as a clone of the New York Times - Article Page.
 The collaborative Coding experience was an amazing experience, spending time and holding each other accountable  to learn and  create this project from ground was fun. I was sure to complete the project and understan every bits in details.
@@ -90,7 +90,7 @@ run test with linters
 
 ### Deployment
 
-Deloped  project using Netlify 
+Deloped  project using Netlify
 [Live Demo Link](https://hardcore-hodgkin-3a83ed.netlify.app/)
 
 ## Authors
