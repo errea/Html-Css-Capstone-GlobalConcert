@@ -93,7 +93,7 @@ run test with linters
 [Live Demo Link](https://quirky-panini-716c06.netlify.app/index.html)
 
 2. Deployed project using Github Pages
-[Live Demo Link](https://quirky-panini-716c06.netlify.app/index.html)  
+[Live Demo Link](https://errea.github.io/Html-Css-Capstone-GlobalConcert/.)  
 
 >## Authors
 

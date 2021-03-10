@@ -6,7 +6,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #8fc04e;
+  color: #ec5242;
 }
 
 a:hover {
@@ -326,7 +326,7 @@ section {
 }
 
 .section-title h3 span {
-  color: #8fc04e;
+  color: #ec5242;
 }
 
 /* --------------------------------------------------------------
@@ -452,7 +452,6 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/bd.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
