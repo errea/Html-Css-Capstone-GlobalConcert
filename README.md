@@ -90,10 +90,10 @@ run test with linters
 >## Deployment
 
 1. Deloped  project using Netlify
-[Live Demo Link](https://quirky-panini-716c06.netlify.app/index.html)
+[Live Demo Link](https://peaceful-shirley-d5bbda.netlify.app/)
 
 2. Deployed project using Github Pages
-[Live Demo Link](https://errea.github.io/Html-Css-Capstone-GlobalConcert/.)  
+[Live Demo Link](https://errea.github.io/Html-Css-Capstone-GlobalConcert/)  
 
 >## Authors
 
