@@ -49,7 +49,7 @@ This project was my  first experience with the use of linters, which was great a
 
   [Link Github Repo](https://github.com/errea)
 
-  [Live Demo Link](https://hardcore-hodgkin-3a83ed.netlify.app/)
+  [Live Demo Link](https://quirky-panini-716c06.netlify.app/index.html)
 
 >### Getting Started
 
@@ -91,8 +91,8 @@ run test with linters
 ### Deployment
 
 Deloped  project using Netlify
-[Live Demo Link](https://hardcore-hodgkin-3a83ed.netlify.app/)
-
+[Live Demo Link](https://quirky-panini-716c06.netlify.app/index.html)
+D
 ## Authors
 
 👤 **Eri-Ngozi**
