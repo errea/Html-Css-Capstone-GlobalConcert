@@ -138,7 +138,7 @@ a:hover {
   border-radius: 50px;
   width: 36px;
   height: 36px;
-  background: #8fc04e;
+  background: #ec5242;
   display: inline-block;
   display: inline-flex;
   align-items: center;
@@ -223,7 +223,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #8fc04e;
+  background: #ec5242;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -603,23 +603,6 @@ section {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #8fc04e;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ec5242;
-}
-
 .portfolio-details .portfolio-info h2 {
   padding: 30px;
   box-shadow: 0 0 30px rgba(53, 53, 53, 0.08);
@@ -688,7 +671,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #8fc04e;
+  background: #ec5242;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -714,7 +697,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #8fc04e;
+  background: #ec5242;
   padding: 15px 20px;
 }
 
@@ -921,7 +904,7 @@ section {
 
 #hero {
   width: 100%;
-  height: 200vh;
+  height: 100vh;
   background: url("../img/bs.jpg") top center;
   background-size: cover;
   position: relative;
@@ -1072,4 +1055,15 @@ section {
   position: relative;
   padding-top: 10px;
   padding-bottom: 20px;
+}
+
+.ticketref {
+  position: relative;
+  margin-top: 20px;
+  padding-left: 80px;
+  align-items: center;
+}
+
+.text center {
+  padding-top: 30px;
 }
