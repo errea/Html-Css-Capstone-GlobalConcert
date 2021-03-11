@@ -1,458 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Tickets Concert</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  
-
-  <!-- Google Fonts -->
-  
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  
-  <!-- Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/ticket.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ticket.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Join us</title>
 </head>
-
 <body>
-
-  <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="globalconcert.contact@example.com">globalconcert.contact@example.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
-      </div>
-      <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#">English</a>
-        <a href="#">My Page</a>
-        <a href="#">Logout</a>
-      </div>
+  <header>
+    <div class="header_top">
+      <ul class="social_nav">
+        <li><a href="#"><img src="img/facebook.png" class="social" alt=""></a></li>
+        <li><a href="#"><img src="img/twitter.png" class="social t" alt=""></a></li>
+        <li><a href="#">Ourpage</a></li>
+        <li><a href="#">Korean</a></li>
+      </ul>
     </div>
+    <div class="header_bottom">
+      <img src="img/list.png" class="menu" alt="">
+    </div>
+    <a href="index.html"><img src="img/logo.gif" id="logo" alt=""></a>
+    <ul class="menu_bottom_nav">
+      <li><a href="about.html" class="about">About</a></li>
+      <li><a href="index.html#program">Program</a></li>
+      <li><a href="ticket.html">Join</a></li>
+      <li><a href="#">Sponsor</a></li>
+      <li><a href="#">News</a></li>
+    </ul>
+  </header>
+  <section class="ticket">
+    <div class="wrap">
+      <h1>Select Ticket</h1>
+      <div class="gradient">
+        <div class="grid">
+          <div class="category">STANDARD</div>
+          <div class="category">VIP</div>
+          <div class="price">
+            <label for="pricy">$100</label><br>
+            <input type="radio" id="pricy" name="price" value="hundred" checked>
+          </div>
+          <div class="price">
+            <label for="pricy">$200</label><br>
+            <input type="radio" id="pricee" name="price" value="hundred">
+          </div>
+        </div>
+      </div>
+      <button>GET YOUR Ticket</button>
+    </div>
+    <a href="index.html"><p class="contact">summer_concert@daft_punk.com</p></a>
   </section>
-
-    <!-- ======= Header ======= -->
-    <header id="header" class="d-flex align-items-center">
-      <div class="container d-flex justify-content-between">
-  
-        <div class="logo">
-          <a href="index.html"><img src="assets/img/lg.png" alt="" class="img-fluid"></a>-
-        </div>
-  
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li>
-              <a class="nav-link scrollto active" href="about.html">About</a>
-            </li>
-            <li>
-              <a class="nav-link scrollto" href="ticket.html">Program</a>
-            </li>
-            <li>
-              <a class="nav-link scrollto" href="#join">Join</a></li>
-            <li><a class=" nav-link scrollto" href="#news">News</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
-  
-      </div>
-    </header>
-    <!-- End Header -->
-
-  <main id="main">
-
-    <!-- ======= Breadcrumbs ======= -->
-    <section class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Welcome to Tickect Page</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Ticket Page</li>
-          </ol>
-        </div>
-
-      </div>
-    </section><!-- End Breadcrumbs -->
-
-    <section class="inner-page">
-      <div class="section-title">
-        <h2>Select Tickets</h2>
-        <p> * Step 1 Please select the day you want to Join the Rap Concert 2021.</p>
+  <h2 class="section_title">Partners</h2>
+    <section class="partners">
+      <div class="all">
+        <ul>
+          <li><a href="#"><img src="/assets/img/disc.png" alt="x1"></a></li>
+          <li><a href="#"><img src="/assets/img/play.png" alt="x2"></a></li>
+          <li><a href="#"><img src="/assets/img/video-player.png" alt="x3"></a></li>
+          <li><a href="#"><img src="/assets/img/spotify.png" alt="x4"></a></li>
+          <li><a href="#"><img src="/assets/img/wave.png" alt="x5"></a></li>
+        </ul>
       </div>
     </section>
-
-    <section class="container">
-      <h1>Events Tickets</h1>
-        <div class="row">
-
-          <article class="card fl-left">
-            <section class="date">
-              <time datetime='2014-06-19T21:30'>November 19, 2014</time>>
-            </section>
-            <section class="card-cont">
-              <small>Snoop Doggy</small>
-              <h3>live in sydney</h3>
-              <div class="even-date">
-               <i class="fa fa-calendar"></i>
-               <time datetime='2014-06-19T21:30'> November 19, 2014</time>
-              </div>
-              <div class="even-info">
-                <i class="fa fa-map-marker"></i>
-                <p>
-                  nexen square for people australia, sydney
-                </p>
-              </div>
-              <a href="#">Reserved</a>
-            </section>
-          </article>
-
-          
-           <!-- ======= Article for  Tickets 4 ======= -->
-          <article class="card fl-left">
-            <section class="date">
-              <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-            </section>
-            <section class="card-cont">
-              <small>Dj Khaled</small>
-              <h3>corner obsest program</h3>
-              <div class="even-date">
-               <i class="fa fa-calendar"></i>
-               <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-              </div>
-              <div class="even-info">
-                <i class="fa fa-map-marker"></i>
-                <p>
-                  nexen square for people australia, sydney
-                </p>
-              </div>
-              <a href="#">VIP</a>
-            </section>
-          </article>
-        </div>
-
-        <div class="row">
-
-          <article class="card fl-left">
-            <section class="date">
-              <time datetime='2014-06-19T21:30'>November 19, 2014</time>>
-            </section>
-            <section class="card-cont">
-              <small>Snoop Doggy</small>
-              <h3>live in sydney</h3>
-              <div class="even-date">
-               <i class="fa fa-calendar"></i>
-               <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-              </div>
-              <div class="even-info">
-                <i class="fa fa-map-marker"></i>
-                <p>
-                  nexen square for people australia, sydney
-                </p>
-              </div>
-              <a href="#">Reserved</a>
-            </section>
-          </article>
-
-          
-           <!-- ======= Article for  Tickets 4 ======= -->
-          <article class="card fl-left">
-            <section class="date">
-              <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-            </section>
-            <section class="card-cont">
-              <small>Dj Khaled</small>
-              <h3>corner obsest program</h3>
-              <div class="even-date">
-               <i class="fa fa-calendar"></i>
-               <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-              </div>
-              <div class="even-info">
-                <i class="fa fa-map-marker"></i>
-                <p>
-                  nexen square for people australia, sydney
-                </p>
-              </div>
-              <a href="#">VIP</a>
-            </section>
-          </article>
-        </div>
-        <div class="row">
-
-          <article class="card fl-left">
-            <section class="date">
-              <time datetime='2014-06-19T21:30'>November 19, 2014</time>>
-            </section>
-            <section class="card-cont">
-              <small>Snoop Doggy</small>
-              <h3>live in sydney</h3>
-              <div class="even-date">
-               <i class="fa fa-calendar"></i>
-               <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-              </div>
-              <div class="even-info">
-                <i class="fa fa-map-marker"></i>
-                <p>
-                  nexen square for people australia, sydney
-                </p>
-              </div>
-              <a href="#">Reserved</a>
-            </section>
-          </article>
-
-          
-           <!-- ======= Article for  Tickets 4 ======= -->
-          <article class="card fl-left">
-            <section class="date">
-              <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-            </section>
-            <section class="card-cont">
-              <small>Dj Khaled</small>
-              <h3>corner obsest program</h3>
-              <div class="even-date">
-               <i class="fa fa-calendar"></i>
-               <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-              </div>
-              <div class="even-info">
-                <i class="fa fa-map-marker"></i>
-                <p>
-                  nexen square for people australia, sydney
-                </p>
-              </div>
-              <a href="#">VIP</a>
-            </section>
-          </article>
-        </div>
-        <div class="row">
-           <!-- ======= Article Ticket 5 ======= -->
-          <article class="card fl-left">
-            <section class="date">
-              <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-            </section>
-
-            <section class="card-cont">
-              <small>dj khaled</small>
-              <h3>music kaboom festivel</h3>
-              <div class="even-date">
-               <i class="fa fa-calendar"></i>
-               <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-              </div>
-              <div class="even-info">
-                <i class="fa fa-map-marker"></i>
-                <p>
-                  nexen square for people australia, sydney
-                </p>
-              </div>
-              <a href="#">booked</a>
-            </section>
-          </article>
- <!-- ======= Article Ticket 6 ======= -->
-          <article class="card fl-left">
-            <section class="date">
-              <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-            </section>
-
-            <section class="card-cont">
-              <small>dj khaled</small>
-              <h3>hello dubai festivel</h3>
-              <div class="even-date">
-               <i class="fa fa-calendar"></i>
-               <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-              </div>
-              <div class="even-info">
-                <i class="fa fa-map-marker"></i>
-                <p>
-                  nexen square for people australia, sydney
-                </p>
-              </div>
-              <a href="#">cancel</a>
-            </section>
-          </article>
-          </div>
-        </section>
-
-
-        <section class="inner-page">
-          <div class="section-title">
-            <h2>Select Your Launch Here</h2>
-            <p> * Step 2 Please select your launch for the music concert.</p>
-          </div>
-        </section>
-
-        <section class="container">
-          <h1>LAUNCH</h1>
-            <div class="row">
-              <article class="card fl-left card w-100">
-                <section class="date">
-                  <i class="bi bi-menu-up"></i>
-                  <h6>Crips Pie</h6>
-                </section>
-                <section class="card-cont">
-                  <small>Day one - Two Menu</small>
-                  <h3>live in sydney</h3>
-                  <div class="even-date">
-                    <i class="bi bi-menu-up"></i>
-                   <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-                  </div>
-                  <div class="even-info">
-                    <i class="fa fa-map-marker"></i>
-                    <p>
-                      nexen square for people australia, sydney
-                    </p>
-                  </div>
-                  <a href="#">Order Menu</a>
-                </section>
-              </article>
-            </div>
-
-            <div class="">
-              <div class="row">
-                <article class="card fl-left card w-100">
-                  <section class="date">
-                    <i class="bi bi-menu-up"></i>
-                  <h6>Crips Pie</h6>
-                  </section>
-                  <section class="card-cont">
-                    <small>Day Three - four Menu</small>
-                    <h3>live in sydney</h3>
-                    <div class="even-date">
-                     <i class="bi bi-menu-up"></i>
-                     <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-                    </div>
-                    <div class="even-info">
-                      <i class="fa fa-map-marker"></i>
-                      <p>
-                        nexen square for people australia, sydney
-                      </p>
-                    </div>
-                    <a href="#">Order Menu</a>
-                  </section>
-                </article>
-            </div>
-             </div>
-             <div class="">
-              <div class="row">
-                <article class="card fl-left card w-100">
-                  <section class="date">
-                    <i class="bi bi-menu-up"></i>
-                  <h6>Crips Pie</h6>
-                  </section>
-                  <section class="card-cont">
-                    <small>Day Five - Six Menu</small>
-                    <h3>live in sydney</h3>
-                    <div class="even-date">
-                     <i class="bi bi-menu-up"></i>
-                     <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-                    </div>
-                    <div class="even-info">
-                      <i class="fa fa-map-marker"></i>
-                      <p>
-                        nexen square for people australia, sydney
-                      </p>
-                    </div>
-                    <a href="#">Order Menu</a>
-                  </section>
-                </article>
-            </div>
-             </div>
-             <div class="">
-              <div class="row">
-                <article class="card fl-left card w-100">
-                  <section class="date">
-                    <i class="bi bi-menu-up"></i>
-                  <h6>Crips Pie</h6>
-                  </section>
-                  <section class="card-cont">
-                    <small>Day Seven - Eight  Menu</small>
-                    <h3>live in sydney</h3>
-                    <div class="even-date">
-                     <i class="bi bi-menu-up"></i>
-                     <time datetime='2014-06-19T21:30'>November 19, 2014</time>
-                    </div>
-                    <div class="even-info">
-                      <i class="fa fa-map-marker"></i>
-                      <p>
-                        nexen square for people australia, sydney
-                      </p>
-                    </div>
-                    <a href="#">Order Menu</a>
-                  </section>
-                </article>
-            </div>
-             </div>
-            </section>
-            <div class="row">
-              <div class="section-title">
-                <h2>Concert Partners</h2>
-              </div>
-            </div>
-            <div class="d-flex align-items-center justify-content-center" style="height: 200px; background: gray;">
-              <div class="p-2 bd-highlight col-example"><a href="#"><img class="pat-img" src="/assets/img/spotify.png" alt="pat one image">
-              </a>
-        </div>
-        <div class="p-2 bd-highlight col-example"><a href="#"><img class="pat-img" src="/assets/img/wave.png" alt="pat one image">
-        </a>
-        </div>
-        <div class="p-2 bd-highlight col-example"><a href="#"><img class="pat-img" src="/assets/img/play.png" alt="pat one image">
-        </a>
-        </div>
-        <div class="p-2 bd-highlight col-example"><a href="#"><img class="pat-img" src="/assets/img/video-player.png" alt="pat one image">
-        </a>
-        </div>
-        <div class="p-2 bd-highlight col-example"><a href="#"><img class="pat-img" src="/assets/img/disc.png" alt="pat one image">
-        </a>
-        </div>
-            </div>
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-
-      <div class="container">
-        <div class="row justify-content-lef t">
-          <div class="col-lg-6 ">
-            <h3>Rap God Concert</h3>
-            <p>2021.10.20(FRI) ~ 16(SAT) <br>@ National Museum of kore, Art center Nabi Australia
-            </p>
-          </div>
-        </div>
-      </div>
+  <footer>
+    <div class="wrapper">
+      <img src="img/logo_footer.webp" class="footer_logo" alt="">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quo iusto ab magni laudantium excepturi ad voluptates sit eius sequi, expedita repellat, dolorum aspernatur ipsam.</p>  
     </div>
-
-    <div class="container footer-bottom clearfix">
-      <div class="copyright">
-        &copy; Copyright <strong><span>HTML-CSS-CAPSTONE</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        Designed for<a href="#">Capstone</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-
-  <!--Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+  </footer>
 </body>
-
 </html>
