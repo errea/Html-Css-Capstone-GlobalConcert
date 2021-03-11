@@ -48,7 +48,7 @@ The project was solo but time to time i met with my coding partner for accountta
 
   [Link Github Repo](https://github.com/errea)
 
-  [Live Demo Link](https://quirky-panini-716c06.netlify.app/index.html)
+  [Live Demo Link](https://affectionate-brattain-5b87cd.netlify.app/)
 
 >### Getting Started
 
@@ -90,7 +90,7 @@ run test with linters
 >## Deployment
 
 1. Deloped  project using Netlify
-[Live Demo Link](https://peaceful-shirley-d5bbda.netlify.app/)
+[Live Demo Link](https://affectionate-brattain-5b87cd.netlify.app/)
 
 2. Deployed project using Github Pages
 [Live Demo Link](https://errea.github.io/Html-Css-Capstone-GlobalConcert/)  
