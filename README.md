@@ -97,7 +97,7 @@ run test with linters
 
 >## Live Demo Video
 
-  [Link to Loom Video](https://www.loom.com/share/3764019e6ed440299e7c2982f4351fc1)
+  [Link to Loom Video](https://www.loom.com)
 
 >## Authors
 
