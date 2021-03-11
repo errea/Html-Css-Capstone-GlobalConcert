@@ -195,16 +195,15 @@ a:hover {
 
 .partner {
   display: flex;
-  text-decoration: none;
   width: 20px;
   list-style: none;
 }
 
-.pat-img ul {
+.pat-img {
   display: flex;
-  text-decoration: none;
-  width: 60px;
+  width: 100px;
   justify-content: center;
+  padding: 30px;
 }
 
 h1,
@@ -792,7 +791,7 @@ section {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 1px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 #header .logo img {
