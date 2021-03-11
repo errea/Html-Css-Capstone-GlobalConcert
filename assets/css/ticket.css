@@ -11,7 +11,7 @@
 h1 {
   text-transform: uppercase;
   font-weight: 900;
-  border-left: 10px solid #8fc04e;
+  border-left: 10px solid #ec5242;
   padding-left: 10px;
   margin-bottom: 30px;
   color: #ec5242;
@@ -135,7 +135,7 @@ h1 {
   text-decoration: none;
   width: 80px;
   height: 30px;
-  background-color: #d3d3d3;
+  background-color: #ec5242;
   color: #fff;
   text-align: center;
   line-height: 30px;
@@ -150,7 +150,7 @@ h1 {
 }
 
 .row:last-child .card:last-child .card-cont a {
-  background-color: #fec500;
+  background-color: #ec5242;
 }
 
 @media screen and (max-width: 860px) {
