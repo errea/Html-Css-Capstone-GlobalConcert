@@ -1,46 +1,61 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Html-Css-Capstone-GlobalConcert
+# Html-Css-Capstone- Music Global Concert
 
-This capstone project is to build for the HTML &amp; CSS Technical Microverse curriculum based on an online website for a conference. I am to follow the given design of the website, but I must personalise the content, i.e., instead of a conference you can build a website for a concert or for a web development course.
+This capstone project is designed to meet the HTML CSS Technical Microverse curriculum based on an online website for a conference. I am to follow the given design of the website, but I must personalise the content and be creative, i.e., instead of a conference concert I decided to build a Music concert.
 
-## Week 1  HTML5 Collaborative Microverse Project
+## Week 4  HTML/CSS  Microverse Capstone Project
 
-This project was created as a clone of the New York Times - Article Page.
-The collaborative Coding experience was an amazing experience, spending time and holding each other accountable  to learn and  create this project from ground was fun. I was sure to complete the project and understan every bits in details.
-
-This project was my  first experience with the use of linters, which was great and understandable.
+This project was created to reflect the RWD pattern for website. I had to start with the mobile responsiveness.
+The project was solo but at the same time I had my coding partner and I working for accounttabuility and ideas. I was sure to complete the project and understand every bit of the details.
 
 >Skills Revived & Learned:
 
 - Versioning & best practices of maintaining branches of safe deployed and local dev
-- git flow & Github flow
-- HTML, CSS new and better elements, semantics, features etc
+- Git flow & Github flow Practice
+- HTML, CSS semantics, features  and best practice (DRY)etc
+- Using CSS framework like Bootstrap for RWD
 - Cloning - the hard work and skills needed to successfully make a clone.
 - Linter - install & fix tests {still not managed to get styleint to run on VSC locally}
 - Collaborative learning, being patient, helping each other succeed.
 - Attending Daily standup, being focused, accountable.
 
-> Learning Goals:
+>## Learning Goals
 
 - Version Control & CSS
 - Introduction to HTML & CSS concepts.
 - Position, Flex, Floats
 - Embeds and image manipulating
+  
+>## Screen Shots
 
-![screenshot](./assets/The_New_York_Times.png)
+## These Images are outdated pls check the link to the live demo
+
+![screenshot](./assets/images/d1.JPG)
+![screenshot](./assets/images/d2.JPG)
+![screenshot](./assets/images/d3.JPG)
+![screenshot](./assets/images/d4.JPG)
+![screenshot](./assets/images/d5.JPG)
+![screenshot](./assets/images/d6.JPG)
+
+[Link to page designs of the site for capstone ]
+(https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 >## Built With
 
 - Major languages: HTML, CSS
-- Frameworks: git flow
+- Frameworks: git flow, CSS framework (Bootstrap for responsiveness)
 - Technologies used: None
 
 >## Live Demo
 
-[Link Github Repo](https://github.com/errea)
+## Link to Github Repository
 
-[Live Demo Link](https://hardcore-hodgkin-3a83ed.netlify.app/)
+  [Link Github Repo](https://github.com/errea)
+
+## Link to Live Demo
+
+  [Live Demo Link](https://infallible-goldwasser-90014d.netlify.app)
 
 >### Getting Started
 
@@ -48,21 +63,35 @@ To get a local copy up and running follow these simple example steps.
 
 ## Prerequisites
 
-1. Vs code
-
-2. Terminal (Bash)
-
-3. Linter tests
+     Vs code
+     Terminal (Bash)
+     Linter tests
 
 ## Setup
 
-Setup by  following the installation instructions below 
+Setup by  following the installation instructions below
 
-## Install
+## 1.  Installations
+
+Clone the git repository on your Local machine on your terminal
+
+    git clone https://github.com/errea/Html-Css-Capstone-GlobalConcert.git
+
+## 2.  Installations
 
  Run this npm package to install dependencies
- => npm install --save-dev hint@6.0.x
- => npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator
+
+    npm install --save-dev hint@6.0.x
+
+     npm install --save-dev stylelint@13.3.x
+
+     stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator
+
+ Run this command to fix Webhint errors & stylelint errors Respectivly
+
+       npx hint .
+
+       npx stylelint "**/*.{css,scss}" --fix
 
 ### Run tests
 
@@ -71,12 +100,15 @@ run test with linters
 => Stylelint
 => Lighthouse
 
-### Deployment
+>## Deployment 
 
-Deloped  project using Netlify 
-[Live Demo Link](https://hardcore-hodgkin-3a83ed.netlify.app/)
+1. Deloped  project using Netlify
+[Live Demo Link](https://agitated-brattain-a67def.netlify.app/)
 
-## Authors
+ I was asked to review the structure of the website as required by Microverse design
+  [Link to Loom Video](https://www.loom.com)
+
+>## Authors
 
 👤 **Eri-Ngozi**
 
@@ -84,7 +116,7 @@ Deloped  project using Netlify
 - Twitter: [@twitterhandle](https://twitter.com/Erreakay)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/eri-ngozi-okereafor/)
 
-## 🤝 Contributing
+******** 🤝 Contributing 🤝************
 
 Contributions, issues, and feature requests are welcome!
 
