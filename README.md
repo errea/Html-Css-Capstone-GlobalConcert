@@ -2,12 +2,12 @@
 
 # Html-Css-Capstone- Music Global Concert
 
-This capstone project is to build for the HTML &amp; CSS Technical Microverse curriculum based on an online website for a conference. I am to follow the given design of the website, but I must personalise the content and be creative, i.e., instead of a conference concert I decided to build a Music concert.
+This capstone project is designed to meet the HTML CSS Technical Microverse curriculum based on an online website for a conference. I am to follow the given design of the website, but I must personalise the content and be creative, i.e., instead of a conference concert I decided to build a Music concert.
 
 ## Week 4  HTML/CSS  Microverse Capstone Project
 
 This project was created to reflect the RWD pattern for website. I had to start with the mobile responsiveness.
-The project was solo but time to time i met with my coding partner for accounttabuility, ideas since no man is an Island of himself. I was sure to complete the project and understand every bits in details.
+The project was solo but at the same time I had my coding partner and I working for accounttabuility and ideas. I was sure to complete the project and understand every bit of the details.
 
 >Skills Revived & Learned:
 
