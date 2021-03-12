@@ -30,7 +30,8 @@ The project was solo but time to time i met with my coding partner for accountta
 >## Screen Shots
 
 ## These Images are outdated pls check the link to the live demo
-![screenshot](./assets/img/R1.jpg)
+
+![screenshot](./assets/img/head.JPG)
 ![screenshot](./assets/img/R2.JPG)
 ![screenshot](./assets/img/R3.JPG)
 ![screenshot](./assets/img/R5.JPG)
