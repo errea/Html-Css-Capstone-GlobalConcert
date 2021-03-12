@@ -30,10 +30,10 @@ The project was solo but time to time i met with my coding partner for accountta
 >## Screen Shots
 
 ## These Images are outdated pls check the link to the live demo
-![screenshot](./assets/img/Capture.jpg)
-![screenshot](./assets/img/p1.JPG)
-![screenshot](./assets/img/p2.JPG)
-![screenshot](./assets/img/s1.JPG)
+![screenshot](./assets/img/R1.jpg)
+![screenshot](./assets/img/R2.JPG)
+![screenshot](./assets/img/R3.JPG)
+![screenshot](./assets/img/R5.JPG)
 ![screenshot](./assets/img/s2.JPG)
 
 [Link to page designs of the site for capstone ]
