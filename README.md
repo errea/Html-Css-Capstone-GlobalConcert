@@ -29,6 +29,7 @@ The project was solo but time to time i met with my coding partner for accountta
   
 >## Screen Shots
 
+## These Images are outdated pls check the link to the live demo
 ![screenshot](./assets/img/Capture.jpg)
 ![screenshot](./assets/img/p1.JPG)
 ![screenshot](./assets/img/p2.JPG)
@@ -97,6 +98,8 @@ run test with linters
 
 >## Live Demo Video
 
+ ## The link is outdated the last code review asked I 
+ should review the structure of the website to follow Microverse required design. which i did.
   [Link to Loom Video](https://www.loom.com)
 
 >## Authors
