@@ -49,9 +49,13 @@ The project was solo but time to time i met with my coding partner for accountta
 
 >## Live Demo
 
+## Link to demo of the old site structureis on the GitHub Pages link  below
+
   [Link Github Repo](https://github.com/errea)
 
-  [Live Demo Link](https://affectionate-brattain-5b87cd.netlify.app/)
+## Link to demo of the New site structure is on the Netlify link  below
+
+  [Live Demo Link](https://agitated-brattain-a67def.netlify.app/)
 
 >### Getting Started
 
@@ -90,18 +94,19 @@ run test with linters
 => Stylelint
 => Lighthouse
 
->## Deployment
+>## Deployment with Netlify and Github Pages
 
 1. Deloped  project using Netlify
-[Live Demo Link](https://priceless-booth-800e2e.netlify.app/)
+[Live Demo Link](https://agitated-brattain-a67def.netlify.app/)
 
 2. Deployed project using Github Pages ---- This is the old structure of the site which was modifed to the link above
 [Live Demo Link](https://errea.github.io/Html-Css-Capstone-GlobalConcert/)  
 
 >## Live Demo Video
 
- ## The link is outdated the last code review asked I 
- should review the structure of the website to follow Microverse required design. which i did.
+ ## The link is outdated 
+ 
+ I was asked to review the structure of the website as required by Microverse design
   [Link to Loom Video](https://www.loom.com)
 
 >## Authors
