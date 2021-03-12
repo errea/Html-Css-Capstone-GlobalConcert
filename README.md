@@ -49,11 +49,11 @@ The project was solo but at the same time I had my coding partner and I working 
 
 >## Live Demo
 
-## Link to demo of the old site structureis on the GitHub Pages link  below
+## Link to Github Repository
 
   [Link Github Repo](https://github.com/errea)
 
-## Link to demo of the New site structure is on the Netlify link  below
+## Link to Live Demo
 
   [Live Demo Link](https://agitated-brattain-a67def.netlify.app/)
 
@@ -63,7 +63,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Prerequisites
 
-    Vs code
+     Vs code
      Terminal (Bash)
      Linter tests
 
@@ -71,7 +71,13 @@ To get a local copy up and running follow these simple example steps.
 
 Setup by  following the installation instructions below
 
-## Install
+## 1.  Installations
+
+Clone the git repository on your Local machine on your terminal
+
+    git clone https://github.com/errea/Html-Css-Capstone-GlobalConcert.git
+
+## 2.  Installations
 
  Run this npm package to install dependencies
 
@@ -94,18 +100,11 @@ run test with linters
 => Stylelint
 => Lighthouse
 
->## Deployment with Netlify and Github Pages
+>## Deployment 
 
 1. Deloped  project using Netlify
 [Live Demo Link](https://agitated-brattain-a67def.netlify.app/)
 
-2. Deployed project using Github Pages ---- This is the old structure of the site which was modifed to the link above
-[Live Demo Link](https://errea.github.io/Html-Css-Capstone-GlobalConcert/)  
-
->## Live Demo Video
-
- ## The link is outdated 
- 
  I was asked to review the structure of the website as required by Microverse design
   [Link to Loom Video](https://www.loom.com)
 

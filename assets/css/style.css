@@ -35,11 +35,11 @@
 }
 
 .color-light-transparent-grey {
-  color: white;
+  color: gray;
 }
 
 .color-dark-grey {
-  color: white;
+  color: gray;
 }
 
 .color-white {
@@ -47,7 +47,7 @@
 }
 
 .color-transparent-white {
-  color: rgba(255, 255, 255, 0.3);
+  color: white;
 }
 
 .color-black {
@@ -304,7 +304,7 @@ header > div:last-child {
 }
 
 .see-further-marathons > div > div:last-child {
-  background: url(../../assets/images/great-north-run.jpg) no-repeat center;
+  background: url(../../assets/images/head.JPG) no-repeat center;
   background-size: cover;
   min-height: 15em;
 }
@@ -362,7 +362,7 @@ h4 {
 }
 
 .mobile-menu-show > ul {
-  background: #fffffffa;
+  background: white;
   margin: 0;
   list-style: none;
   text-align: center;
@@ -372,9 +372,18 @@ h4 {
   justify-content: space-evenly;
 }
 
-.mobile-menu-show a {
+header nav a:hover {
+  color: #fe4809;
+}
+
+footer nav a:hover {
+  color: #fe4809;
+}
+
+.mobile-menu-show a:hover {
   padding: 0 5px 5px;
   border-bottom: 1px solid #fe4809;
+  color: #fe4809;
 }
 
 header {
@@ -385,16 +394,8 @@ header a.join-btn {
   border: 1px solid #fe4809;
 }
 
-header nav a:hover {
-  color: #fe4809;
-}
-
 footer h2 {
   font-size: 1em;
-}
-
-footer nav a:hover {
-  color: #fe4809;
 }
 
 h2.letter-header {
