@@ -90,9 +90,9 @@ run test with linters
 >## Deployment
 
 1. Deloped  project using Netlify
-[Live Demo Link](https://affectionate-brattain-5b87cd.netlify.app/)
+[Live Demo Link](https://priceless-booth-800e2e.netlify.app/)
 
-2. Deployed project using Github Pages
+2. Deployed project using Github Pages ---- This is the old structure of the site which was modifed to the link above
 [Live Demo Link](https://errea.github.io/Html-Css-Capstone-GlobalConcert/)  
 
 >## Live Demo Video
