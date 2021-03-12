@@ -34,7 +34,8 @@ The project was solo but time to time i met with my coding partner for accountta
 ![screenshot](./assets/img/R2.JPG)
 ![screenshot](./assets/img/R3.JPG)
 ![screenshot](./assets/img/R5.JPG)
-![screenshot](./assets/img/s2.JPG)
+![screenshot](./assets/img/R6.JPG)
+![screenshot](./assets/img/R7.JPG)
 
 [Link to page designs of the site for capstone ]
 (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
