@@ -55,7 +55,7 @@ The project was solo but at the same time I had my coding partner and I working 
 
 ## Link to Live Demo
 
-  [Live Demo Link](https://agitated-brattain-a67def.netlify.app/)
+  [Live Demo Link](https://infallible-goldwasser-90014d.netlify.app)
 
 >### Getting Started
 
