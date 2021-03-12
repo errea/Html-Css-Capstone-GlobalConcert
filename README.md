@@ -36,7 +36,7 @@ The project was solo but at the same time I had my coding partner and I working 
 ![screenshot](./assets/images/d3.JPG)
 ![screenshot](./assets/images/d4.JPG)
 ![screenshot](./assets/images/d5.JPG)
-![screenshot](./assets/images/d6npx .JPG)
+![screenshot](./assets/images/d6.JPG)
 
 [Link to page designs of the site for capstone ]
 (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
