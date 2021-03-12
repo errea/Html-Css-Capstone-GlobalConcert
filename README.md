@@ -31,12 +31,12 @@ The project was solo but at the same time I had my coding partner and I working 
 
 ## These Images are outdated pls check the link to the live demo
 
-![screenshot](./assets/img/head.JPG)
-![screenshot](./assets/img/R2.JPG)
-![screenshot](./assets/img/R3.JPG)
-![screenshot](./assets/img/R5.JPG)
-![screenshot](./assets/img/R6.JPG)
-![screenshot](./assets/img/R7.JPG)
+![screenshot](./assets/images/d1.JPG)
+![screenshot](./assets/images/d2.JPG)
+![screenshot](./assets/images/d3.JPG)
+![screenshot](./assets/images/d4.JPG)
+![screenshot](./assets/images/d5.JPG)
+![screenshot](./assets/images/d6npx .JPG)
 
 [Link to page designs of the site for capstone ]
 (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
